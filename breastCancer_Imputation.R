@@ -10,7 +10,7 @@ rm(list=ls())
 set.seed(123)
 
 #read cancer data
-file_loc = "C:\\Users\\Steph\\Documents\\Matt\\ISYE6501\\Week 10\\breast-cancer-wisconsin.data.txt"
+file_loc = "breast-cancer-wisconsin.data.txt"
 cancer = read.csv(file_loc, header = FALSE, sep = ",", stringsAsFactors = FALSE)
 
 #Column V7 is the only one missing values, which appear to be '?'
